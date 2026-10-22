@@ -1,0 +1,15 @@
+Student ID: 230103024
+Available logical cores / workers: 10
+Operation: y[i] = 2.5 * x[i] + 1.25
+Timing statistic: median of 7 runs
+
+N          | Serial (ms) | Parallel (ms) | Speedup | Faster
+-----------|-------------|---------------|---------|---------
+       100 |       0.002 |         0.113 |   0.014 | Serial
+      1000 |       0.002 |         0.102 |   0.019 | Serial
+     10000 |       0.005 |         0.168 |   0.031 | Serial
+    100000 |       0.034 |         0.179 |   0.191 | Serial
+   1000000 |       0.361 |         0.475 |   0.760 | Serial
+  10000000 |       4.262 |         2.868 |   1.486 | Parallel
+
+Measured slower-to-faster crossover range: 1,000,000 < N <= 10,000,000
