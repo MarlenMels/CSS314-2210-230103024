@@ -1,0 +1,9 @@
+Student ID: 230103024
+Items: 1000
+Workers: 4
+Work per item: sleep(0.0001 * (i % 20))
+
+Strategy                 | Total Time (ms) | First Finish (ms) | Last Finish (ms) | Finish Delta (ms)
+-------------------------|-----------------|-------------------|------------------|------------------
+Static (250-item blocks) |         300.494 |           286.506 |          300.422 |            13.916
+Dynamic (chunk size 5)   |         307.792 |           298.823 |          307.717 |             8.894
