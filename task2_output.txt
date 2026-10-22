@@ -1,0 +1,14 @@
+Student ID: 230103024
+Platform: macOS-27.0.1-arm64-arm-64bit-Mach-O
+Logical cores: 10
+Array elements: 20000000
+Parallel fraction for Amdahl's Law: 0.95
+Validated sum: 9997463.0939079206
+
+Cores | Wall Time (ms) | Speedup | Amdahl Upper Bound
+------|----------------|---------|-------------------
+    1 |         11.537 |   1.000 |              1.000
+    2 |          2.906 |   3.971 |              1.905
+    4 |          2.895 |   3.985 |              3.478
+   10 |          2.080 |   5.546 |              6.897
+   20 |          2.732 |   4.223 |             10.256
