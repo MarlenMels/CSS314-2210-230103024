@@ -1,0 +1,16 @@
+Student ID: 230103024
+Elements per kernel: 30000000
+Maximum logical cores: 10
+Timing statistic: median of 3 runs
+
+Kernel             | Cores | Wall Time (ms) | Speedup | Efficiency
+-------------------|-------|----------------|---------|-----------
+A: Memory copy     |     1 |          6.059 |   1.000 |      1.000
+A: Memory copy     |     2 |          5.583 |   1.085 |      0.543
+A: Memory copy     |    10 |          3.161 |   1.917 |      0.192
+B: Trigonometric   |     1 |        197.793 |   1.000 |      1.000
+B: Trigonometric   |     2 |        110.509 |   1.790 |      0.895
+B: Trigonometric   |    10 |         36.753 |   5.382 |      0.538
+
+Scaling diagnosis: Kernel A (Memory copy) stalled due to shared RAM memory-channel saturation.
+At 10 cores its efficiency was 0.192, versus 0.538 for compute-bound Kernel B.
