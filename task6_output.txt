@@ -1,0 +1,10 @@
+Student ID: 230103024
+Threads: 4
+Increments per thread: 2000000
+Expected final value: 8000000
+Actual final value (unsynchronized): 2799066
+Updates lost: 5200934 (65.012%)
+Unsynchronized wall time: 6.553 ms
+Atomic final value: 8000000
+Atomic wall time: 113.344 ms
+Atomic synchronization penalty: 106.791 ms (17.297x slower)
