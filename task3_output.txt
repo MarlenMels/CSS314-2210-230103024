@@ -1,0 +1,7 @@
+Student ID: 230103024
+Physical cores / worker threads: 10
+Increments per thread: 50000000
+Validated total per run: 500000000
+Unpadded Shared: 195.977 ms
+Padded/Local: 28.453 ms
+Execution ratio (Unpadded / Padded): 6.888x
