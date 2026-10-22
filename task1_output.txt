@@ -1,0 +1,8 @@
+Student ID: 230103024
+OS: macOS-27.0.1-arm64-arm-64bit-Mach-O
+CPU model/platform: arm
+Logical cores: 10
+Array elements: 20000000
+Sum: 9997463.0939079206
+Standard deviation: 0.28871462330795783
+Wall-clock execution time: 44.173 ms
